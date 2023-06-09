@@ -130,11 +130,13 @@
         </svg>
       </div>
       <div class="nine" style="vertical-align:top;position:fixed;top:0;line-height:1.1;><p style="vertical-align:top;position:fixed;top:0;">
-          <script>
-        window.onload = function() {
+        <script>
+        var image = document.getElementById("imagePath");
+        image.onload = function() {
             document.body.style.backgroundColor = 'pink';
         };
-    </script>
+          image.src = "img/vector.jpg";
+        </script>
         <p style="font-size: 19px;">Oi mo gatinha : )<br>Feliz dia dos namorados!<br>
         Pra quebrar o costume queria hoje expressar um pouco do amor e carinho que sinto por vc.<br>
         Nosso relacionamento é uma das coisas mais preciosas na minha vida. Com os altos e baixos, sinto que no final isso só fortaleceu o que eu sinto.<br>
